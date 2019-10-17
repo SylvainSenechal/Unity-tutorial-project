@@ -58,7 +58,6 @@
      <Compile Include="Assets\Scripts\deplacement.cs" />
      <Compile Include="Assets\Scripts\deplacementEnnemi2.cs" />
      <Compile Include="Assets\Scripts\deplacementEnnemi3.cs" />
-     <Compile Include="Assets\Scripts\fermetureIsoloire.cs" />
      <Compile Include="Assets\Scripts\healthBoss.cs" />
      <Compile Include="Assets\Scripts\healthEnnemi.cs" />
      <Compile Include="Assets\Scripts\healthPlayer.cs" />
@@ -70,31 +69,31 @@
      <Compile Include="Assets\Scripts\rotateHealth.cs" />
      <Compile Include="Assets\Scripts\shoot.cs" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>/home/sylvain/miniProjet/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>/home/sylvain/Bureau/EVHI/miniProjet/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>/home/sylvain/miniProjet/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>/home/sylvain/Bureau/EVHI/miniProjet/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>/home/sylvain/miniProjet/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>/home/sylvain/Bureau/EVHI/miniProjet/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>/home/sylvain/miniProjet/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>/home/sylvain/Bureau/EVHI/miniProjet/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>/home/sylvain/miniProjet/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>/home/sylvain/Bureau/EVHI/miniProjet/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>/home/sylvain/miniProjet/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>/home/sylvain/Bureau/EVHI/miniProjet/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>/home/sylvain/miniProjet/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>/home/sylvain/Bureau/EVHI/miniProjet/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>/home/sylvain/miniProjet/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>/home/sylvain/Bureau/EVHI/miniProjet/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>/home/sylvain/miniProjet/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>/home/sylvain/Bureau/EVHI/miniProjet/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>/home/sylvain/Unity/Hub/Editor/2019.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

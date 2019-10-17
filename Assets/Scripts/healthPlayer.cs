@@ -34,6 +34,7 @@ public class healthPlayer : MonoBehaviour {
     health -= dmg;
     healthBar.value = health;
     if (health <= 0) {
+      Cursor.lockState = CursorLockMode.None;
       textPlayAgain.gameObject.SetActive(true);
       buttonPlayAgain.gameObject.SetActive(true);
       buttonStop.gameObject.SetActive(true);
@@ -41,6 +42,7 @@ public class healthPlayer : MonoBehaviour {
   }
 
   public void gameWon() {
+    Cursor.lockState = CursorLockMode.None;
     textWP.gameObject.SetActive(true);
     buttonLeaveAfterWin.gameObject.SetActive(true);
   }

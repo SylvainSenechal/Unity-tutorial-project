@@ -6,7 +6,19 @@ public class deplacement : MonoBehaviour {
   public float moveSpeed = 5f;
   public float turnSpeed = 180f;
 
+  void Start() {
+    Cursor.lockState = CursorLockMode.Locked;
+  }
+
   void Update() {
+
+    if (Input.GetKey(KeyCode.Escape)) {
+      if (Cursor.lockState == CursorLockMode.Locked) {
+        Cursor.lockState = CursorLockMode.None;
+      } else {
+        Cursor.lockState = CursorLockMode.Locked;
+      }
+    }
 
     float yaw = Input.GetAxis("Mouse X") * turnSpeed * Time.deltaTime;
     // float pitch = - Input.GetAxis("Mouse Y");
